@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Montserrat&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;600&family=Qwitcher+Grypen&family=Roboto&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Montserrat&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;600&family=Qwitcher+Grypen&family=Roboto&family=Silkscreen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+   background-color: #0D1821;
+   
+   
+}
+
+
+
+
+.top{
+    display: flex;
+    color: white;
+    background-color: #0D1821;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: #729B79;
+    font-family: 'Silkscreen', sans-serif ;
+}
+
+
+.imgPage{
+    box-sizing: border-box;
+    width: 1915px;
+    height: 700px;
+   
+}
+
+
+.box{
+    box-sizing: border-box;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+    background-color: #0D1821;
+    border-radius: 20px;
+    font-family: 'Silkscreen', sans-serif;
+    
+}
+
+
+
+.box > img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    bottom: 300px;
+    border-radius: 500px;
+    border: solid 10px #729B79;
+   
+    
+
+}
+
+.links{
+    animation: is-new 1s  ease-in-out alternate infinite; ;
+    width: 70px;
+    height: 70px;
+    display:inline-flex;
+       
+}
+
+@keyframes is-new{
+    to {
+        transform: translateY(30px);
+    }
+}
+
+
+
+.info{
+    display: flex;
+    color: white;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+    height: 300px;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;    
+    
+}
+.info strong{
+    color: #729B79;
+}
+
+
+.imginfo{
+    width: 50px;
+    height: 50px;
+
+}
+
+.roda{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.contatos{
+
+display: flex;
+height: 500px;
+justify-content:space-around;
+align-content: center;
+flex-direction: column;
+color: white;  
+font-size: 20px;
+font-family: 'Roboto',sans-serif;
+}
+
+.contatos h2, h3{
+    color: #729B79;
+}
+
+.skills{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 700px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif ;
+    
+}
+
+.skills h2{
+    color: #729B79;
+}
+
+
+
+.sll{
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    animation: is-bouncing 1s  ease-in-out alternate infinite;
+
+   
+}
+
+
+@keyframes is-bouncing{
+    to {
+        transform: translateY(30px);
+    }
+}
+
+
+.curriculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    
+    
+}
+.curriculo > a {
+    background-color: #729B79;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    
+}
+
+.curriculo > img {
+    width: 100px;
+    height: 100px;
+    animation: seta 1s ease-in-out alternate infinite;
+}
+
+
+@keyframes seta{
+    to {
+        transform: translateY(30px);
+    }
+}
+
+
